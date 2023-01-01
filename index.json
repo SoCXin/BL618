@@ -1,0 +1,51 @@
+{
+    "type":"SoC",
+    "name":"BL618",
+    "title": "bouffalolab BL618",
+    "description":"WiFi/BT/BLE RISC-V BL618 SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V",
+        "Freq":[1,320],
+        "DMIPS": 400,
+        "CoreMark": 800
+    },
+    "manufacturer": {
+        "vendor":"bouffalolab",
+        "homepage": "https://www.bouffalolab.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/BL618.git"
+    },
+    "support": {
+        "type": "mail",
+        "mail": "support@bouffalolab.com"
+    },
+    "series":["BL618","BL616"],
+    "package":["QFN40","QFN56"],
+    "peripheral": ["WiFi6","BT","BLE","audio","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[25,32],
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "RISC-V",
+        "bouffalolab",
+        "BL618",
+        "WiFi","BT","BLE","Audio","UART","I2C","SPI",
+        "1.8V","3.3V"
+    ]
+}
